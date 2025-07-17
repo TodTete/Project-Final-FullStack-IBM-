@@ -127,3 +127,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'frontend/static')
 ]
+
+ALLOWED_HOSTS=['localhost','https://vallejoricar-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai']
+CSRF_TRUSTED_ORIGINS=['https://vallejoricar-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai']
